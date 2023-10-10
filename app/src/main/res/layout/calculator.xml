@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:ems="10"
+            android:inputType="text"
+            android:text="123"
+            android:textAlignment="viewEnd" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="BACKSPACE"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="CLEAR"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="CLEAR ALL"
+            app:cornerRadius="1dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="1"
+            app:cornerRadius="1dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="2"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="3"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="+"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:text="DIV"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="MC"
+            app:cornerRadius="1dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="4"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="5"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="6"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="-"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="MOD"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="MR"
+            app:cornerRadius="1dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="7"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="8"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="9"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="x"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:text="SQRT"
+            app:cornerRadius="1dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="MS"
+            app:cornerRadius="1dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="0"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="."
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="="
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text=":"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="1/X"
+            app:cornerRadius="1dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#EA1E1E"
+            android:hapticFeedbackEnabled="true"
+            android:text="M+"
+            app:cornerRadius="1dp" />
+    </TableRow>
+
+</TableLayout>
