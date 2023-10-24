@@ -4,9 +4,9 @@ import android.widget.CheckBox;
 
 public class Item {
     private String name;
-    private CheckBox checkBox;
+    private boolean isChecked;
 
-    public Item(String name) {
+    public Item(String name , boolean b) {
         this.name = name;
     }
     public String getName() {
@@ -15,13 +15,12 @@ public class Item {
     public void setName(String name) {
         this.name = name;
     }
-    public void setItemCheck(boolean check){
-        this.checkBox.setChecked(check);
+
+    public boolean isChecked() {
+        return isChecked;
     }
-    public boolean getCheckBox() {
-        return this.checkBox.isChecked();
-    }
-    public void setCheckBox(CheckBox checkBox) {
-        this.checkBox = checkBox;
+
+    public void setChecked(boolean checked) {
+        isChecked = checked;
     }
 }
